@@ -97,7 +97,7 @@ git clone https://github.com/fromsaurav/Adv-ToDo_Application.git
 cd advanced-react-todo
 npm install
 
-###▶️ **Run the App**
+▶️ **Run the App**
 
 npm run dev
 
