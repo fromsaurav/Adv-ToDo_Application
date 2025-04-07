@@ -122,5 +122,5 @@ npm run dev
 
 5.LocalStorage integration for persistence
 
-Error handling for async API calls
+6.Error handling for async API calls
 
