@@ -37,15 +37,21 @@ A feature-rich, responsive To-Do list application built with **React**, **Redux*
 - Simulated login/logout using Redux without a real backend.
 - To-Do list is only accessible to authenticated (mocked) users.
 
-### 📱 Responsive Design
-- Fully responsive across devices (Mobile, Tablet, Desktop).
-- Built with **Flexbox** and **CSS Grid**.
+### 📦 Persistent Storage
+- Tasks and authentication state are stored in **localStorage**, ensuring persistence across sessions.
+
+### 🎨 Theming Support
+- Includes a theme toggle via `themeSlice` in Redux.
+
+### 💻 Responsive Design
+- Mobile-first approach with **Flexbox** and **CSS Grid**.
+- Optimized for all screen sizes (mobile, tablet, desktop).
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React, JavaScript (ES6+)
+- **Frontend**: React, Typescript (ES6+)
 - **Styling**: CSS, Flexbox, Grid, (Optional: Bootstrap/Material-UI)
 - **State Management**: Redux Toolkit, Redux Thunk
 - **API**: Weather API (e.g., OpenWeatherMap)
@@ -53,7 +59,32 @@ A feature-rich, responsive To-Do list application built with **React**, **Redux*
 
 ---
 
-## 🚀 Getting Started
+
+## 🧱 Folder Structure
+
+src/
+├── components/             # UI components
+│   ├── Login.tsx
+│   ├── Settings.tsx
+│   ├── TaskInput.tsx
+│   ├── TaskList.tsx
+│   └── TodoApp.tsx
+├── store/                  # Redux store
+│   └── slices/
+│       ├── authSlice.ts
+│       ├── tasksSlice.ts
+│       └── themeSlice.ts
+│   └── index.ts
+├── types/                  # TypeScript types
+│   └── index.ts
+├── App.tsx                 # Main app component
+├── index.css
+├── main.tsx                # App entry point
+└── vite-env.d.ts
+
+
+
+## 🚀 Getting Started......
 
 ### 🔧 Prerequisites
 
@@ -62,7 +93,7 @@ A feature-rich, responsive To-Do list application built with **React**, **Redux*
 
 ### 📥 Installation
 
-git clone https://github.com/yourusername/advanced-react-todo.git
+git clone https://github.com/fromsaurav/Adv-ToDo_Application.git
 cd advanced-react-todo
 npm install
 
@@ -70,5 +101,26 @@ npm install
 
 npm run dev
 
+📸 Screenshots
+🔐 Login Page
 
+📝 Task List
+
+🌦 Weather API Widget
+
+📱 Mobile View
+
+**🧠 Best Practices Followed**
+
+1.Modular folder structure
+
+2.Separation of logic (Redux slices for tasks, auth, theme)
+
+3.Reusable components
+
+4.TypeScript for type safety
+
+5.LocalStorage integration for persistence
+
+Error handling for async API calls
 
