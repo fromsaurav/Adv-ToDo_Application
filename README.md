@@ -101,14 +101,25 @@ npm install
 
 npm run dev
 
+🔑 Login
+-Added a simple user authentication feature (login/logout functionality) that simulates the process using Redux for state management.
+-Use 'user' as the demo username and 'password' as the demo password for testing.
+
 📸 Screenshots
+
 🔐 Login Page
+![image](https://github.com/user-attachments/assets/2483a08d-1b6e-4d05-a1da-36d3615752ab)
 
-📝 Task List
 
-🌦 Weather API Widget
+📝 DashBoard- TaskMaster Pro
+![image](https://github.com/user-attachments/assets/0b0311ef-4d1d-4eaa-a9b4-f13786793b01)
+
+⚙️ Settings Menu
+![image](https://github.com/user-attachments/assets/87cd1e53-d02b-4bb7-bd98-5ebafc8abf49)
 
 📱 Mobile View
+![image](https://github.com/user-attachments/assets/7e2db2f3-322e-4744-8b79-244db82fafd5)
+
 
 **🧠 Best Practices Followed**
 
